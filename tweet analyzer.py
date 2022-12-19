@@ -3,7 +3,7 @@ from collections import Counter
 import re
 
 
-class TwitterAnalyzer:
+class TweetAnalyzer:
     def __init__(self, twitter_file):
         self.file = twitter_file
         self.published, self.deleted = self.filter_by_deleted_and_published()
